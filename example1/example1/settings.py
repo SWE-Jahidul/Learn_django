@@ -25,7 +25,8 @@ SECRET_KEY = 'j7&25ej7dc!mm2s@%q6ax3ab*$2w&b)7#7x5_i+z*^@dch_npd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# any domain can work in the any system
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
